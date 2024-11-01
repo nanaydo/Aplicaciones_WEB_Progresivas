@@ -1,0 +1,29 @@
+﻿@model List<PizzaDeliveryApp.Pizza>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Descripción</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pizza in Model)
+        {
+            <tr>
+                <td>@pizza.Nombre</td>
+                <td>@pizza.Precio</td>
+                <td>@pizza.Descripcion</td>
+                <td>
+                    <a asp-action="ActualizarPizza" asp-route-id="@pizza.PizzaId">Editar</a> |
+                    <a asp-action="EliminarPizza" asp-route-id="@pizza.PizzaId">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
