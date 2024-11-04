@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\senag\\source\\repos\\PizzaDeliveryApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PizzaDeliveryApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PizzaDeliveryApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\senag\\source\\repos\\PizzaDeliveryApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\senag\\source\\repos\\PizzaDeliveryApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\senag\\source\\repos\\PizzaDeliveryApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\senag\\source\\repos\\PizzaDeliveryApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PizzaDeliveryApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PizzaDeliveryApp.props",
+      "PackagePath": "build\\PizzaDeliveryApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PizzaDeliveryApp.props",
+      "PackagePath": "buildMultiTargeting\\PizzaDeliveryApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PizzaDeliveryApp.props",
+      "PackagePath": "buildTransitive\\PizzaDeliveryApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
