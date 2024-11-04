@@ -1,0 +1,37 @@
+﻿@page "/pizzas"
+@using MongoDB.Driver
+@inject MongoDbContext _context
+
+<h3>Lista de Pizzas</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pizza in pizzas)
+        {
+            <tr>
+                <td>@pizza.Nombre</td>
+                <td>@pizza.Descripcion</td>
+                <td>@pizza.Precio</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Pizza> pizzas = new List<Pizza>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        pizzas = await Task.Run(() => _context.Pizzas.Find(Builders<Pizza>.Filter.Empty).ToList());
+    }
+}
+
+
+
